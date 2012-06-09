@@ -1,6 +1,10 @@
-% Hacked together code for implementing to color magnifying component
+% Hacked together code for implementing the colour magnifying component
 % of Eulerian Video Magnification:
 %   http://people.csail.mit.edu/mrub/vidmag/
+%
+% Only enhances the red RGB component at the moment. It can be
+% extended to handle all three; memory limitations on my laptop
+% prevents me from doing them all in one step.
 %
 % Requires Minh N. Do's laplacian pyramid toolbox:
 %   http://www.ifp.illinois.edu/~minhdo/software/lptoolbox.tar.gz
